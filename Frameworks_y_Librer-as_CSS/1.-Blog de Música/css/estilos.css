@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.fila {
+    min-height: 100px;
+    height: 100px;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    /*border: 1px solid black;*/
+    min-height: 50px;
+    height: 100%;
+}
+.col-1 {width: 70%;}
+.col-2 {width: 30%;}
+
+.col-3 {width: 16%;}
+
+.col-4 {width: 40%;}
+.col-5 {width: 10%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+nav div ul li{
+  text-align: center;
+}
+.foto1{
+    float: right;
+}
+
+.foto1 img{
+  width: 100%;
+}
+.foto2 img{
+  width: 100%;
+}
+.Musica-body {
+  background:#7c252d;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Cabecera{
+    background-color: white;
+}
+.logotipo img{
+  width: 20%;
+  height: 20%;
+}
+.redes{
+ padding-bottom: 6.98%;
+ float: right;
+}
+.redes img{
+  width: 20%;
+  height: 20%;
+}
+.Barra {
+  padding-top: 1.8%;
+  background-color: #ffac6a;
+  padding-bottom: 0.09%;
+}
+.filablanco{
+  padding: 0px;
+  height: 10% !important ;
+  background-color: #7c252d;
+}
+.CajaBarra{
+    color: #7c252d;
+    background-color: #ffac6a;
+    border: 0;
+}
+a{
+  color: #7c252d;
+}
+a .active{
+  background-color: red;
+}
+
+.Cabecera a img{
+  height: 50%;
+  float: right;
+}
+.redes-sociales {
+  text-align: right;
+}
+.img-social{
+    height: 50%;
+}
+.person{
+  width: 100%;
+}
+h2{
+      color: #7c252d;
+
+}
+
+.Cuerpo{
+    background-color: white;
+    color: #7c252d;
+}
+.Lateral{
+    background-color: white;
+}
+
+
+@media (max-width: 770px) {
+
+.cuerpo{
+  width: 100%;
+}
+.parrafo1{
+  column-count: 1;
+  width: 100%;
+}
+.parrafo2{
+  width: 100%;
+}
+
+.foto1 {
+  width: 100%;
+}
+.col-lg-1 .col-md-1 .col-sm-1 .col-xs-1{
+  width: 100%;
+}
+.foto2 {
+  width: 100%;
+}
+.logotipo{
+  text-align: center;
+}
+
+.Lateral{
+  display: none;
+}
+}

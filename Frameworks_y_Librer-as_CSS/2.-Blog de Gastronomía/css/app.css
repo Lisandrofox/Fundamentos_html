@@ -1,0 +1,55 @@
+*{
+  /*border: solid 1px;*/
+}
+.Cuerpo{
+    background: url(../img/paris.jpg);
+      background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        /*background-size: contain;*/
+        /*min-height: 500px;*/
+        border-radius: 0px !important;
+        margin-bottom: 0px;
+}
+.galeria{
+  align-items: center;
+  text-align: center;
+  flex: auto;
+  margin: 3px;
+  padding: 2px;
+  min-height: 50px;
+  height: 100px;
+  width: 100px;
+
+}
+.galeria img{
+  height: 80px;
+  width: 80px;
+}
+.Contenido{
+  background: rgba(0, 50, 50, 0.6);
+}
+.person{
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+.Lateral{
+  background: #F8E0F1;
+}
+.Articulo{
+  background: #F8E0F1;
+}
+.Titulo{
+  color: #8A0808;
+}
+.button{
+  background: #eaa3d5;
+}
+a{
+  color: #FA5858;
+}
+.personcomento{
+  padding: 0;
+  width: 50%;
+}

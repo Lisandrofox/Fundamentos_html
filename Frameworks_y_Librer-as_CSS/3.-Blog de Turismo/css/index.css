@@ -1,0 +1,118 @@
+*{
+  /*border: solid 1px;*/
+
+}
+
+.cabecera{
+    min-height: 4rem;
+}
+
+div[class*="columna"]{
+  min-height: 50rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+  overflow: scroll;
+}
+
+.logo{
+  width: 40px;
+  margin-top: 0.5rem;
+  float: left;
+}
+
+.contenido{
+  background: url(../img/cuzco.jpg);
+   /*opacity: 0.1;*/
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*background-size: contain;*/
+  /*min-height: 500px;*/
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+}
+/*.menu{
+  float: left;
+}*/
+.logo{
+  border-radius: 20px;
+  width: 60%;
+  padding: 0;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+.deja{
+  color: white ;
+}
+.btn{
+  background-color: #0d47a1;
+}
+.cabecera{
+  background: #2196f3;
+  height: 160px;
+}
+p{
+  text-align: justify;
+}
+
+#icono{
+  width: 50%;
+  padding: 0;
+}
+.sociales, ul{
+text-align: center;
+}
+/*.texto{
+  background:white;
+}*/
+.fotoperfil{
+  text-align:center:
+}
+.perfil{
+  width: 50%;
+}
+
+.formulario{
+  background:#64b5f6;
+}
+form{
+  color: white;
+}
+
+.input-field label {
+ color: white;
+ font-family: "Lato", sans-serif;
+ font-weight: 300;
+ font-size: 1.2em;
+}
+.comentario{
+  background: #90caf9;
+}
+.input-field .prefix.active {
+     color: black;
+   }
+   .input-field label {
+       color: white;
+     }
+i{
+  color: white;
+}
+/* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+   @media  (max-width: 770px) {
+     .btnmenu{
+       width: 10%;
+     }
+     .logo{
+       width: 100%;
+       margin-left: 0px;
+     }
+    .slogan i{
+       color: blue !important;
+     }
+   }
